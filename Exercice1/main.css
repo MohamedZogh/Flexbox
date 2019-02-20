@@ -33,3 +33,15 @@ li:hover{
     background-color: rgb(177, 158, 158);
     transition: 2s;
 }
+
+@media screen and (max-width:750px){
+    ul{
+        flex-direction:column;
+    }
+    a{
+        text-align: initial;
+    }
+    #single-nav {
+        padding-left: 10px;
+    }
+}

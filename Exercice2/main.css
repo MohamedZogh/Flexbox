@@ -50,3 +50,15 @@ span {
     display:flex;
     flex-direction: column;
 }
+
+@media screen and (max-width:750px){
+    ul{
+        flex-direction:column;
+    }
+    a{
+        text-align: initial;
+    }
+    #advanced-nav {
+        padding-left: 20px;
+    }
+}
